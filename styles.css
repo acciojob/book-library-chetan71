@@ -1,1 +1,44 @@
-/*  your css code here. If applicable */
+body{
+	background-color:#f8f8f8;
+	width: 600px;
+}
+.title{
+	
+	height:100%;
+	width: 100%;
+	margin: 30px;
+}
+
+h1{
+	text-align:center;
+	background-color:#ffffff;
+}
+.book-library{
+	background-color:#ffffff;
+	width: 100%;
+	align-items:center;
+	
+}
+.img{ 
+	display:flex;
+	justify-content:center;
+	width: 200px;
+	align-content:center;
+	height:100%;
+	width:100%;
+}
+img{
+	max-width:100%;
+	height:auto;
+	
+}
+.book {
+	background-color:#777777;
+	margin: 10px;
+}
+button{
+	background-color:#2ecc71;
+	width: 100%;
+	border:none;
+	padding: 5px;
+}
