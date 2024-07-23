@@ -1,10 +1,12 @@
 body{
 	background-color:#f8f8f8;
-	width: 600px;
+	/* width: 100%;/ */
+	display:flex;
+	
 }
 .title{
 	
-	height:100%;
+	height:auto;;
 	width: 100%;
 	margin: 30px;
 }
@@ -17,7 +19,7 @@ h1{
 	background-color:#ffffff;
 	width: 100%;
 	align-items:center;
-	
+	align-content:center;
 }
 .img{ 
 	display:flex;
@@ -33,12 +35,18 @@ img{
 	
 }
 .book {
-	background-color:rgb(46, 204, 113);
+	background-color:#777777;
 	margin: 10px;
+	width: auto;
+	justify-content: center;
+	align-content: center;
 }
 button{
 	background-color:#2ecc71;
 	width: 100%;
 	border:none;
 	padding: 5px;
+}
+button:hover{
+	background-color:#05ff6f;
 }
