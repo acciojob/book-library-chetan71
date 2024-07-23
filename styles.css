@@ -34,12 +34,15 @@ img{
 	height:auto;
 	
 }
-.book .author {
-	background-color:#777777;
+.book{
 	margin: 10px;
 	width: auto;
 	justify-content: center;
 	align-content: center;
+}
+.book .author {
+	background-color:#777777;
+	
 }
 button{
 	background-color:#2ecc71;
